@@ -5,7 +5,7 @@
 
 int main() {
 	char coordinates[20];
-	printf("Input circle coordinates (x1 y1 x2 y2): ");
+	printf("Input circle coordinates (x1 y1 r1 x2 y2 r2): ");
 	fgets(coordinates, sizeof(coordinates), stdin);
 
 
